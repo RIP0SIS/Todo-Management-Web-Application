@@ -58,8 +58,8 @@ Database (H2 / MySQL)
 
 > Screenshots are available in the `Todo-App-Screenshots/` folder
 
-### 1️⃣ To-Do List View (CRUD Dashboard)
-Shows all existing To-Dos with Update/Delete actions.
+### 1️⃣ Login Page
+Authenticate the user.
 
 ![Todo List](Todo-App-Screenshots/1.png)
 
@@ -68,11 +68,12 @@ Shows all existing To-Dos with Update/Delete actions.
 ### 2️⃣ Add New To-Do
 Form to create a new To-Do item with target date and status.
 
-![Add Todo](Todo-App-Screenshots/2.png)
+![Add Todo](Todo-App-Screenshots/4.png)
 
 ---
 
-### 3️⃣ Update Existing To-Do
+### 3️⃣ CRUD Dashboard & Update Existing To-Do
+Shows all existing To-Dos with Update/Delete actions.
 Edit an existing To-Do while reusing the same form logic.
 
 ![Update Todo](Todo-App-Screenshots/3.png)
@@ -82,21 +83,21 @@ Edit an existing To-Do while reusing the same form logic.
 ### 4️⃣ Validation Errors (@Valid)
 Server-side validation errors handled using Bean Validation.
 
-![Validation Error](Todo-App-Screenshots/4.png)
+![Validation Error](Todo-App-Screenshots/5.png)
 
 ---
 
 ### 5️⃣ REST API – JSON Response
 REST endpoint returning structured JSON data for API consumers.
 
-![REST API JSON](Todo-App-Screenshots/5.png)
+![REST API JSON](Todo-App-Screenshots/7.png)
 
 ---
 
 ### 6️⃣ Centralized Error Handling
 Consistent error response using `@ControllerAdvice`.
 
-![API Error Response](Todo-App-Screenshots/6.png)
+![API Error Response](Todo-App-Screenshots/8.png)
 
 ---
 
