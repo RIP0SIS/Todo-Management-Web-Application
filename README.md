@@ -218,14 +218,3 @@ Riposis
 This project is intentionally backend-focused and designed to reflect industry-standard Spring Boot practices expected from entry-level to junior backend developers.
 
 Feel free to explore, fork, or extend it 🚀
-
-
----
-
-### 🔥 Next (optional but HIGH impact)
-If you want, I can:
-- Tailor a **shorter README for recruiters**
-- Optimize this README for **GitHub SEO**
-- Write **resume bullets that perfectly match this README**
-
-Just tell me what you want next.
