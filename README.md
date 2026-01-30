@@ -18,6 +18,10 @@ This project demonstrates how the **same business domain** can be reused across:
 - 🗄️ **H2 (dev)** and **MySQL (Docker-ready)** support
 - 📦 DTO-based request/response handling
 - ⚠️ Consistent JSON error responses via `@ControllerAdvice`
+- 📘 **API Documentation**: Integrated `springdoc-openapi` to auto-generate interactive OpenAPI/Swagger documentation for all REST endpoints, making the API easily testable and consumer-friendly.
+- 📈 **Application Monitoring**: Enabled **Spring Boot Actuator** to expose operational endpoints (health, metrics) for basic application observability and production readiness.
+- 🎯 **Response Filtering**: Applied **static filtering** on REST responses to control exposed fields and keep API contracts clean and intentional.
+
 
 ---
 
@@ -190,7 +194,7 @@ Access:
 
 MVC UI: http://localhost:8080
 
-REST API: http://localhost:8080/api/todos
+REST API: http://localhost:8080/users/todos
 
 🎯 What This Project Demonstrates
 
