@@ -35,10 +35,11 @@ Repository (Spring Data JPA)
 ↓
 Database (H2 / MySQL)
 
-
-- **Single domain model** reused across MVC and REST
-- Controllers are thin, business logic lives in services
-- DTOs isolate API contracts from entities
+### Design Highlights
+- Layered architecture with clear separation of concerns
+- Thin controllers delegating persistence to repositories
+- Single domain model reused across MVC views and REST APIs
+- DTOs used to control and stabilize REST API contracts
 
 ---
 
@@ -57,6 +58,15 @@ Database (H2 / MySQL)
 | Build Tool | Maven |
 
 ---
+
+## 🧪 Testing
+
+- Wrote **JUnit tests** for the repository layer using **@DataJpaTest** to verify persistence behavior in an **isolated in-memory database (H2)**.
+- Tested core JPA operations such as **save**, **find**, and **delete**, along with **custom query methods** like `findByUsername`.
+- Ensured repository correctness independent of web and service layers.
+
+---
+
 
 ## 📸 Application Screenshots
 
