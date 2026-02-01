@@ -28,11 +28,11 @@ This project demonstrates how the **same business domain** can be reused across:
 ## 🧩 Architecture
 
 Controller (MVC / REST)
-↓
+     ↓
 Service Layer
-↓
+     ↓
 Repository (Spring Data JPA)
-↓
+     ↓
 Database (H2 / MySQL)
 
 ### Design Highlights
